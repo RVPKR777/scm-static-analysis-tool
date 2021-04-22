@@ -20,6 +20,9 @@ public class DetectException extends AbstractHandler {
 		IWorkspaceRoot root = workspace.getRoot();
 		SampleHandler.printMessage("root: " + root.getLocation().toOSString());
 		IProject[] projects = root.getProjects();
+eRoot root = workspace.getRoot();
+		SampleHandler.printMessage("root: " + root.getLocation().toOSString());
+		IProject[] projects = root.getProjects();
 		
 		
 		detectInProjects(projects);
